@@ -1,0 +1,18 @@
+import java.util.*;
+public class Directory implements AbstractFile {
+	String name;
+	ArrayList<File> includedFiles = new ArrayList<>();
+	
+	public Directory(String name) {
+		super();
+		this.name = name;
+	}
+
+
+	@Override
+	public void ls() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

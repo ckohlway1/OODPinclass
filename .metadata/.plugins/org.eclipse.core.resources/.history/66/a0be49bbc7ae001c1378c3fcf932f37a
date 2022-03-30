@@ -1,0 +1,6 @@
+
+public class PaypalStrategy {
+	String emailID,password;
+	
+	
+}

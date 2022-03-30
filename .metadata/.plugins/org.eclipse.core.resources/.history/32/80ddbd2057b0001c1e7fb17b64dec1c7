@@ -1,0 +1,19 @@
+
+public class FileDirClient {
+	public static void main(String[] args) {
+		File java = new File("java");
+		File cpp = new File("C++");
+		Directory code = new Directory("Code");
+		File toast = new File("Toast");
+		Directory Toaster = new Directory("Toaster");
+		Directory everything = new Directory("Everything");
+		Toaster.add(toast);
+		code.add(cpp);
+		code.add(java);
+		everything.add(Toaster);
+		everything.add(code);
+		
+		everything.ls();
+		
+	}
+}

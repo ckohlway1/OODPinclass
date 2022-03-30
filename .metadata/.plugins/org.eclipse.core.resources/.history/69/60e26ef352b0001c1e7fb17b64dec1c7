@@ -1,0 +1,10 @@
+
+public class Directory implements AbstractFile {
+
+	@Override
+	public void ls() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

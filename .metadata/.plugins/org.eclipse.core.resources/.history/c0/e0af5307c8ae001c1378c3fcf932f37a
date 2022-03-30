@@ -1,0 +1,16 @@
+
+public class Item {
+	private String upcCode;
+	private int price;
+	
+	public Item(String upc, int cost){
+	// ADD YOUR CODE TO FINISH THIS CONSTRUCTOR	
+	}
+	public String getUpcCode() {
+	// ADD YOUR CODE TO FINISH THIS CONSTRUCTOR	
+	}
+	public int getPrice() {
+	// ADD YOUR CODE TO FINISH THIS CONSTRUCTOR		
+}
+
+}

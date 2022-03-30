@@ -1,0 +1,18 @@
+
+public class Directory implements AbstractFile {
+	String name;
+	
+	
+	public Directory(String name) {
+		super();
+		this.name = name;
+	}
+
+
+	@Override
+	public void ls() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
